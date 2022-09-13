@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$url = "YOUR_APPS_SCRIPT_URL";
+$url = "https://script.google.com/macros/s/AKfycbzJtlX6CeqTSNQY7qfVJ7kXgBCQ-QwNw9mGEPETd-4xUONFBhel0t6RYdgy-MNvtq31/exec;
 $postData = [
    "action" => "login",
    "email" => $_POST['email'],
